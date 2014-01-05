@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menuAllGames"
+        android:title="Show All Games"/>
+    <item
+        android:id="@+id/menuValidGames"
+        android:title="Show Valid Games"/>
+    <item 
+        android:id="@+id/menuHot"
+        android:title="Show Hot Games"/>
+    <item 
+        android:id="@+id/menuSearch"
+        android:title="Search for Game"/>
+    <item
+        android:id="@+id/menuUsers"
+        android:title="Previous Users"/>
+    <item
+        android:id="@+id/menuSettings"
+        android:title="Settings"/>
+
+</menu>

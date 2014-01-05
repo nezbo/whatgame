@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <CheckBoxPreference
+        android:key="pref_expansions"
+        android:title="Exclude Expansions"
+        android:summary="Don't show expansions in the game lists"
+        android:defaultValue="false"/>
+    <ListPreference 
+        android:key="pref_algorithm"
+        android:title="Game Comparison"
+        android:summary="The algorithm compares games on one of these and the number of players"
+        android:defaultValue="2"
+        android:entries="@array/prefs_algorithm"
+        android:entryValues="@array/prefs_algoValues"
+        />
+    <EditTextPreference 
+        android:key="pref_language"
+        android:title="Video Language"
+        android:summary='The game details will only show videos of the chosen language or use "ALL"'
+        android:defaultValue="English"/>
+
+</PreferenceScreen>

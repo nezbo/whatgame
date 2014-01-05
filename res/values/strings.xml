@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="app_name">What Board Game</string>
+    <string name="no_games">There were no games</string>
+
+    <color name="blue">#69D2E7</color>
+    <color name="orange">#FFA500</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="darkblue">#0854C7</color>
+    <color name="gray">#FF888888</color>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_prefs">PrefsActivity</string>
+    
+    <string-array name="prefs_algorithm">
+        <item name="0">BGG Rank</item>
+        <item name="1">User\'s Rating</item>
+        <item name="2">Rating if available</item>
+    </string-array>
+    
+    <string-array name="prefs_algoValues">
+        <item name="0">0</item>
+        <item name="1">1</item>
+        <item name="2">2</item>
+    </string-array>
+    
+    <string-array name="sort_options">
+        <item>Name</item>
+        <item>Players</item>
+        <item>Rank</item>
+        <item>Rating</item>
+        <item>User Rating</item>
+        <item>Year</item>
+        <item>Playing Time</item>
+        <item>Suggested Age</item>
+    </string-array>
+
+    <string-array name="category_options">
+        <item>ANY</item>
+        <item>Area Movement</item>
+        <item>Auction/Bidding</item>
+        <item>Card Game</item>
+        <item>Co-operative Play</item>
+        <item>Deck / Pool Building</item>
+        <item>Dice</item>
+        <item>Economic</item>
+        <item>Fantasy</item>
+        <item>Party Game</item>
+        <item>Science Fiction</item>
+        <item>Simultaneous Action Selection</item>
+        <item>Tile Placement</item>
+        <item>Wargame</item>
+    </string-array>
+
+</resources>
